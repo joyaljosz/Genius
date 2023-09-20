@@ -368,25 +368,42 @@
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: cover;
-    height: 650px;
+    background-position: center;
+    height: 780px;
   }
   
   .caption h3 a { color: #FFF; }
-  .caption h3 a:hover { color: #FF3; }
+  .caption h3 a:hover { color: #FF3; } 
 
   .home-slider .item-first {
-    background:  url(../images/bg.mp4);
-	background-position: center;
+    background-image:  url(../images/1.png);
+    
   }
 
   .home-slider .item-second {
-    background: url(../images/bg2.mp4);
+    background-image: url(../images/2.png);
   }
 
   .home-slider .item-third {
-    background: url(../images/bg3.mp4);
+    background-image: url(../images/3.png);
   }
 
+  /* .bg-img-1 {
+      background-image: url(../images/1.png);
+  }
+  .bg-img-2 {
+    background-image: url(../images/2.png);
+  }
+  .bg-img-3 {
+    background-image: url(../images/3.png);
+  }
+
+  .carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  } */
 
 
   /*---------------------------------------
@@ -1263,4 +1280,6 @@ Styling for the top bar
 .view-more-btn:hover {
   background-color: #2980b9;
 }
+
+
 
