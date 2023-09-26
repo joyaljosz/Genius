@@ -78,15 +78,23 @@
   }
 
   ::-webkit-scrollbar{
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: auto;
   }
+
+  /* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
 
   ::-webkit-scrollbar-thumb {
     cursor: pointer;
-    background: #000000;
+    background: #888;
   }
-
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
   .section-title {
     padding-bottom: 40px;
   }
@@ -251,7 +259,7 @@
 
   .custom-navbar {
     background: #ffffff;
-    /* border-top: 5px solid #5427f7; */
+    border-top: 5px solid #5427f7;
     border-bottom: 0;
     -webkit-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
@@ -361,7 +369,7 @@
     background-color: rgba(20,20,20,0.2);
     height: 100%;
     color: #fff;
-    cursor: e-resize;
+    cursor:grab;
   }
 
   .home-slider .item {
