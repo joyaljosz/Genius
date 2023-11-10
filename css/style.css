@@ -73,7 +73,7 @@
   }
 
   a:hover, a:active, a:focus {
-    color: #3243fe;
+    color: #5427f7;
     outline: none;
   }
 
@@ -384,16 +384,16 @@
   .caption h3 a:hover { color: #FF3; } 
 
   .home-slider .item-first {
-    background-image:  url(../images/1.png);
+    background-image:  url(../Images/bg1.png);
     
   }
 
   .home-slider .item-second {
-    background-image: url(../images/2.png);
+    background-image: url(../Images/bg2.png);
   }
 
   .home-slider .item-third {
-    background-image: url(../images/3.png);
+    background-image: url(../Images/bg3.png);
   }
 
   /* .bg-img-1 {
@@ -424,7 +424,7 @@
   }
 
   .feature-thumb span {
-    background: #3f51b5;
+    background: #5427f7;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -462,7 +462,7 @@
   }
 
   #about figure span i {
-    background: #3243fe;
+    background: #5427f7;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -598,7 +598,7 @@
   }
 
   .courses-price span {
-    background: #3f51b5;
+    background: #5427f7;
     border-radius: 2px;
     color: #ffffff;
     display: block;
@@ -606,7 +606,7 @@
   }
 
   .courses-price.free span {
-    background: #3f51b5;
+    background: #5427f7;
   }
 
 
@@ -667,7 +667,7 @@
   }
 
   .tst-rating .fa {
-    color: #3f51b5;
+    color: #5427f7;
   }
 
   .tst-image,
@@ -713,7 +713,7 @@
 }
 
 .contact .heading h2 span {
-    color: #3f51b5;
+    color: #5427f7;
 }
 
 .contact .heading p {
@@ -738,7 +738,7 @@
     padding: 10px;
     border-radius: 10px;
     font-size: 15px;
-    background: #3f51b5;
+    background: #5427f7;
     color: #ffffff;
 }
 
@@ -972,7 +972,7 @@
 
   .social-icon li a {
     border-radius: 100px;
-    color: #3243fe;
+    color: #5427f7;
     font-size: 15px;
     width: 35px;
     height: 35px;
@@ -985,7 +985,7 @@
   }
 
   .social-icon li a:hover {
-    background: #3243fe;
+    background: #5427f7;
     color: #ffffff;
   }
 
@@ -1123,7 +1123,7 @@
   
 
  /* Styles for the back-to-top button */
-.back-to-top {
+/* .back-to-top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -1137,21 +1137,21 @@
   font-size: 24px;
   border-radius: 50%;
   transition: opacity 0.3s;
-}
+} */
 
-.back-to-top:hover {
+/* .back-to-top:hover {
   background-color: #ffffff;
-}
+} */
 
 /* Show the button when user scrolls 300px */
-@media screen and (min-height: 300px) {
+/* @media screen and (min-height: 300px) {
   .back-to-top {
     display: block;
   }
-}
+} */
 
 /* Animation for the button appearance */
-.back-to-top-appear {
+/* .back-to-top-appear {
   opacity: 0;
   transform: translateY(20px);
 }
@@ -1160,7 +1160,7 @@
   opacity: 1;
   transform: translateY(0);
   transition: opacity 0.3s, transform 0.3s;
-}
+} */
 
 
 /* 
@@ -1188,7 +1188,7 @@ Styling for the top bar
 
 
 /* Number counters */
-.counters {
+/* .counters {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -1213,7 +1213,7 @@ Styling for the top bar
   font-size: 18px;
   color: #333;
   margin-top: 10px;
-}
+} */
 
 
 
