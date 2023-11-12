@@ -5,12 +5,13 @@
     background: #ffffff;
     font-family: sans-serif;
     overflow-x: hidden;
+    overflow-y: scroll;
     padding-top: 70px;
   }
-
+  
 
   /*---------------------------------------
-     TYPOGRAPHY              
+    TYPOGRAPHY              
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
@@ -51,7 +52,7 @@
 
 
   /*---------------------------------------
-     GENERAL               
+    GENERAL               
   -----------------------------------------*/
 
   html{
@@ -77,12 +78,12 @@
     outline: none;
   }
 
-  ::-webkit-scrollbar{
+  /* ::-webkit-scrollbar{
     width: 10px;
     height: auto;
   }
 
-  /* Track */
+ 
 ::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
@@ -91,10 +92,10 @@
     cursor: pointer;
     background: #888;
   }
-/* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
+} */
   .section-title {
     padding-bottom: 40px;
   }
@@ -384,20 +385,20 @@
   .caption h3 a:hover { color: #FF3; } 
 
   .home-slider .item-first {
-    background-image:  url(../Images/bg1.png);
+    background-image:  url(../Images/back1.png);
     background-size: cover;
     background-position: center;
     
   }
 
   .home-slider .item-second {
-    background-image: url(../Images/bg2.png);
+    background-image: url(../Images/back2.png);
     background-size: cover;
     background-position: center;
   }
 
   .home-slider .item-third {
-    background-image: url(../Images/bg3.png);
+    background-image: url(../Images/back3.png);
     background-size: cover;
     background-position: center;
   }
@@ -705,7 +706,7 @@
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
-
+/* 
   .contact {
     padding: 130px 0;
 }
@@ -782,7 +783,7 @@
     font-size: 13px;
     font-weight: 300;
     color: #999999;
-}
+} */
 
 /*=================footer css start==============*/
 .webintern-footer {
