@@ -341,7 +341,7 @@
   -----------------------------------------*/
 
   #home {
-    padding: 0;
+    padding:0;
   }
 
   #home h1 {
@@ -385,14 +385,14 @@
   .caption h3 a:hover { color: rgb(255, 22, 22) } 
 
   .home-slider .item-first {
-    background-image:  url(../Images/back1.png);
+    background-image:  url(../Images/bgg2.png);
     background-size: cover;
     background-position: center;
     
   }
 
   .home-slider .item-second {
-    background-image: url(../Images/back2.png);
+    background-image: url(../Images/bgg1.png);
     background-size: cover;
     background-position: center;
   }
