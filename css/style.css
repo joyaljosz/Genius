@@ -160,8 +160,8 @@
   }
 
   section {
-    position: relative;
-    padding: 100px 0;
+    position:relative;
+    padding: 70px 0;
   }
 
   #team,
@@ -498,6 +498,7 @@
 
   .team-image img {
     width: 100%;
+    padding: 10px ;
   }
 
   .team-thumb .social-icon {
@@ -706,7 +707,7 @@
   /*---------------------------------------
       CONTACT             
   -----------------------------------------*/
-/* 
+
   .contact {
     padding: 130px 0;
 }
@@ -783,7 +784,7 @@
     font-size: 13px;
     font-weight: 300;
     color: #999999;
-} */
+}
 
 /*=================footer css start==============*/
 .webintern-footer {
