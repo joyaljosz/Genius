@@ -525,12 +525,12 @@
   }
 
   #courses .owl-theme .owl-nav {
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   #courses .owl-theme .owl-nav [class*=owl-] {
     border-radius: 2px;
-    font-size: 16px;
+    font-size: 20px;
     width: 30px;
     height: 30px;
     line-height: 30px;
