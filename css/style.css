@@ -378,7 +378,7 @@
     background-attachment: local;
     background-size: cover;
     background-position: center;
-    height: 780px;
+    height: 700px;
   }
   
   .caption h3 a { color: #FFF; }
@@ -398,7 +398,7 @@
   }
 
   .home-slider .item-third {
-    background-image: url(../Images/back3.png);
+    background-image: url(../Images/bgg3.png);
     background-size: cover;
     background-position: center;
   }
@@ -788,7 +788,7 @@
 
 /*=================footer css start==============*/
 .webintern-footer {
-  background: #0d2034;
+  background: #316195;
   }
   
   .webintern-footer-inner {
@@ -857,6 +857,10 @@
   padding-left: 0;
   letter-spacing: 0.20px;
   font-family: 'Open Sans', sans-serif;
+  }
+
+  .webintern-footer-list a:hover{
+    color: rgb(188, 13, 13)616;
   }
   .footer-3 {
   padding-left: 65px;
@@ -952,9 +956,9 @@
   {
   font-size: 15px;
   line-height: 20px;
-  color: #fff;
-  background: #51658d;
-  padding: 30px 0;
+  color: #000000;
+  background: #ffffff;
+  padding: 20px 0;
   font-family: 'Open Sans', sans-serif;
   }
   .tt-copy-right {
