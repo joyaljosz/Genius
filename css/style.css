@@ -388,6 +388,7 @@
     background-image:  url(../Images/bgg2.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
     
   }
 
@@ -395,12 +396,14 @@
     background-image: url(../Images/bgg1.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
   }
 
   .home-slider .item-third {
     background-image: url(../Images/bgg3.png);
     background-size: cover;
     background-position: center;
+    opacity: 0.8;
   }
 
 
@@ -452,7 +455,7 @@
   }
 
   #about figure span i {
-    background: #5427f7;
+    background: #316195;
     border-radius: 50px;
     color: #ffffff;
     font-size: 25px;
@@ -482,6 +485,7 @@
   .team-image img {
     width: 100%;
     padding: 10px ;
+    transform: scale(1.1);
   }
 
   .team-thumb .social-icon {
@@ -1061,7 +1065,7 @@
 
 /* view more button */
 .view-more-btn {
-  background-color: #3498db;
+  background-color: #316195;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -1096,4 +1100,46 @@
 }
 
 
+.image_gallery{
+  margin: 10px 50px;
+}
+.image_gallery img{
+  width: 230px;
+  padding: 5px;
+  /* filter: grayscale(); */
+  transition: 1s;
+}
+
+.image_gallery img:hover{
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+
+.single_image_display {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.9);
+}
+.image_content {
+  margin: auto;
+  display: block;
+  max-width: 80%;
+  max-height: 80%;
+}
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
 
