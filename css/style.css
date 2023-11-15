@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css?family=Muli:300,700|Nunito');
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
 
   body {
     background: #ffffff;
@@ -665,7 +665,7 @@
   }
   
   .webintern-footer-inner {
-  padding-top: 80px;
+  padding-top: 60px;
   padding-bottom: 50px;
   }
   
@@ -889,7 +889,7 @@
   @media only screen and (max-width: 992px) {
     section,
     footer {
-      padding: 60px 0;
+      padding: 40px 0;
     }
 
     .home-slider .item {
@@ -1143,3 +1143,71 @@
   cursor: pointer;
 }
 
+
+/* General Styles */
+.blog-home2 {
+  background-color: #f8f9fa; /* Adjust background color as needed */
+}
+
+.blog-home2 h3 {
+  color: #333; /* Adjust heading color */
+  padding: 20px;
+}
+
+.subtitle {
+  color: #666; /* Adjust subtitle color */
+}
+
+/* Event Cards */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-img-top {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.date-pos {
+  background: linear-gradient(135deg, #007bff, #6610f2); /* Gradient background */
+}
+
+.date-pos span {
+  font-size: 18px;
+}
+
+/* Event Details */
+.font-weight-medium {
+  color: #333; /* Adjust text color */
+}
+
+.card h5{
+  padding: 20px;
+}
+
+.card p {
+  padding: 0 20px 0 20px;
+  color: #666; /* Adjust paragraph text color */
+}
+
+.linking {
+  color: #007bff; /* Adjust link color */
+}
+
+.linking:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .col-md-4 {
+      margin-bottom: 20px;
+  }
+}
