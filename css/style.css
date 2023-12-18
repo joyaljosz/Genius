@@ -406,7 +406,16 @@
     opacity: 0.8;
   }
 
-
+  /* Media Query for Mobile Devices */
+@media (max-width: 767px) {
+  .home-slider .col-md-6 {
+      padding-left: 15px; /* Adjust padding for smaller screens */
+  }
+  
+  .home-slider .item {
+      height: 50vh; /* Adjusted height for mobile screens */
+  }
+}
   /*---------------------------------------
       FEATURE              
   -----------------------------------------*/
@@ -838,6 +847,25 @@
   text-align: right;
   }
   
+  /* Responsive Styles */
+@media (max-width: 767px) {
+  .webintern-footer .footer-2,
+  .webintern-footer .footer-3 {
+      margin-bottom: 15px; /* Adjust spacing for smaller screens */
+  }
+  
+  .webintern-footer-list a {
+      font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+@media (max-width: 991px) {
+  .webintern-footer .webintern-footer-inner {
+      padding-top: 40px;
+      padding-bottom: 30px;
+  }
+}
+
 
   /*---------------------------------------
     SOCIAL ICON              
